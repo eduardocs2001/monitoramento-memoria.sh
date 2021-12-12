@@ -1,0 +1,24 @@
+Para enviar email:
+instale o ssmtp:
+	sudo apt-get install ssmtp
+	
+Realizar edição das configurações:
+	sudo gedit /etc/ssmtp/ssmtp.conf
+	
+CONFIGURANDO:
+	root=aqui_vai_email_de_quem_vai_enviar
+	mailhub=smtp.gmail.com:587
+	AuthUser=aqui_vai_email_de_quem_vai_enviar
+	AuthPass=senha_do_email_que_vai_enviar
+	UseSTARTTLS=yes
+		
+		
+		
+		
+		
+		
+Para enviar o email instale o mailutils:
+	sudo apt-get install mailutils
+	
+	
+	
